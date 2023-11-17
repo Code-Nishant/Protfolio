@@ -147,23 +147,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -602,8 +585,6 @@ margin-top: 40px;
 /* service */
 .service .service-item {
   margin-bottom: 30px;
-  flex: 0 0 33.3%;
-  max-width: 33.3%;
 }
 /* .service .container{
   padding: 40px;
@@ -682,8 +663,6 @@ margin-top: 40px;
   padding-bottom: 40px;
 } */
 .project .project-heading{
-  flex: 0 0 100%;
-  max-width: 100%;
   margin-bottom: 40px;
 }
 .project .project-heading h2{
@@ -691,8 +670,6 @@ margin-top: 40px;
   font-weight: 500;
 }
 .project .project-item{
-  flex: 0 0 33.33%;
-  max-width: 33.33%;
   margin-bottom: 30px;
 }
 .project .project-item-inner{
@@ -706,24 +683,6 @@ margin-top: 40px;
   display: block;
   /* height: 200px; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -744,8 +703,6 @@ margin-top: 40px;
   margin-bottom: 60px;
 }
 .contact .contact-info-item {
-  flex: 0 0 25%;
-  max-width: 25%;
   text-align: center;
   margin-bottom: 60px;
 }
