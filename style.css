@@ -36,6 +36,11 @@ body {
 .main-content{
   padding-left: 270px;
 } */
+			
+					
+			  
+			   
+ 
 
 .padd-15 {
 
@@ -44,6 +49,12 @@ body {
 }
 
 
+				
+				  
+					 
+					  
+					 
+ 
 .section {
   background: var(--bg-black-900);
   /* min-width: 100dvh; */
@@ -142,6 +153,23 @@ body {
 .shadow-dark{
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.20);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -361,8 +389,16 @@ h3.my-profession {
 
 
 
+				
+				 
+						  
+					 
+					 
+ 
+
 .home-img-e::after{
   content: '';
+				   
   position: absolute;
   height: 80px;
   width: 80px;
@@ -383,8 +419,19 @@ h3.my-profession {
   border-left: 10px solid var(--skin-color);
   right: calc(100% - 70px);
   top: calc(0% - 10px);
+						  
+ 
 
+					 
+			   
+					 
+				
 }
+
+
+
+
+
 
 
 
@@ -435,6 +482,7 @@ h3.my-profession {
   border-bottom: 1px solid var(--bg-black-50) ;
   margin: 4px;
   display: block;
+  
 }
 .about .about-content .personal-info .button{
   margin-top: 30px;
@@ -447,10 +495,12 @@ h3.my-profession {
   font-weight: 400;
   color: var(--text-black-700);
   display: block;
+  text-decoration: none;
 }
 /* SKILLS SECTION */
  .about .about-content .skills{
 
+			   
 margin-top: 40px;
 }
 /*
@@ -496,6 +546,7 @@ margin-top: 40px;
 .about .about-content .education, 
 .about .about-content .exprience{
 
+				 
   margin-top: 30px;
 }
 .about .about-content h3.title{
@@ -505,6 +556,7 @@ margin-top: 40px;
   color: var(--text-black-900);
 }
 .about .about-content .timeline-box{
+				 
   max-width: 100%;
 
 }
@@ -585,6 +637,8 @@ margin-top: 40px;
 /* service */
 .service .service-item {
   margin-bottom: 30px;
+				  
+				   
 }
 /* .service .container{
   padding: 40px;
@@ -663,6 +717,8 @@ margin-top: 40px;
   padding-bottom: 40px;
 } */
 .project .project-heading{
+				 
+				  
   margin-bottom: 40px;
 }
 .project .project-heading h2{
@@ -670,6 +726,8 @@ margin-top: 40px;
   font-weight: 500;
 }
 .project .project-item{
+				   
+					
   margin-bottom: 30px;
 }
 .project .project-item-inner{
@@ -683,6 +741,24 @@ margin-top: 40px;
   display: block;
   /* height: 200px; */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -703,6 +779,8 @@ margin-top: 40px;
   margin-bottom: 60px;
 }
 .contact .contact-info-item {
+				
+				 
   text-align: center;
   margin-bottom: 60px;
 }
@@ -764,6 +842,9 @@ margin-top: 40px;
   height: 50px;
   padding: 0 50px;
 }
+.contact .contact-info-item p a{
+  color: var(--text-black-700);
+}
 
 
 
@@ -808,20 +889,9 @@ margin-top: 40px;
     margin-left: 0;
   } 
 }
-
-
-@media (max-width:1125px){
-
-} 
-
-
-
-@media (max-width:767px){
- 
-}
-
-
+		  
 
 *{
-  box-sizing: border-box;
+  box-sizing: border-box;		
+   
 }

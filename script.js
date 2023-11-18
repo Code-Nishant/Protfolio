@@ -1,10 +1,17 @@
 // typing annimation 
 var typed= new Typed(".typing", {
-    strings: ["","Web Designers", "back-end developer","full stack Developer"],
+    strings: ["","Web Devloper", "","Java Programmer","","Frontend Developer","","React Developer", "","UI Designer"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
 });
+
+var t=new Typed(".type",{
+strings: ["","Web Devloper", "","Java Programmer","","Frontend Developer","","React Developer", "","UI Designer"],
+typeSpeed:100,
+BackSpeed:60,
+loop:true
+})
 
 //side bar effect
 const nav= document.querySelector(".nav");
@@ -121,4 +128,4 @@ function sendMail() {
   
       })
       .catch(err=>console.log(err));
-  }
+}
