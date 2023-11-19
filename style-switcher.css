@@ -14,8 +14,11 @@
 
 .style-switcher.open{
     transform: translateX(-7px);
-}
 
+}
+.style-switcher.open:hover{
+    cursor: pointer;
+}
 .style-switcher .s-icon{
     position: absolute;
     height: 40px;

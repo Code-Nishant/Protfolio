@@ -149,6 +149,7 @@ body {
 
 .btn:hover {
   transform: scale(1.05);
+  color: var(--text-black-900);
 }
 .shadow-dark{
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.20);
@@ -743,14 +744,16 @@ margin-top: 40px;
 }
 
 .proj-btn{
-  opacity: 0.5;
+  /* opacity: 1; */
+  
 }
 
 .proj-btn:hover{
-  opacity: 1;
+  /* opacity: 1; */
   background-color: var(--skin-color);
-  color: white;
+  color:var(--bg-black-100) ;
   border-color: var(--skin-color);
+  transform: scale(1.05);
 }
 
 
@@ -846,9 +849,10 @@ margin-top: 40px;
 .contact .contact-form .form-item textarea.form-control{
   height: 140px;
 }
-.contact .contact-form .btn{
+.contact .contact-form .btn:hover{
   height: 50px;
   padding: 0 50px;
+  color: var(--text-black-900);
 }
 .contact .contact-info-item p a{
   color: var(--text-black-700);
