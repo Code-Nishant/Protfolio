@@ -289,6 +289,10 @@ ul {
   color: var(--skin-color);
 }
 
+.side .nav li a:hover {
+  color: var(--skin-color);
+}
+
 .side .nav li a i {
   margin-right: 15px;
 }
